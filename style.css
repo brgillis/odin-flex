@@ -1,3 +1,56 @@
-* {
+body {
   font-family: 'Roboto', sans-serif;
+  color: #1F2937;
+  font-size: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.header,
+.hero-panel,
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  flex-shrink: 0;
+}
+
+.header-logo {
+  font-family: "Brush Script MT", cursive, Arial, sans-serif;
+  font-size: 48px;
+  margin: 0 16px;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  list-style: none;
+  margin: 0 16px;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.secondary-text-light {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cbcfd6;
 }
