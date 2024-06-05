@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   min-height: 100vh;
   font-family: 'Roboto', sans-serif;
@@ -12,6 +16,7 @@ body {
 
 body>* {
   flex-grow: 1;
+  padding: 8px 0;
 }
 
 .header,
@@ -144,4 +149,58 @@ li {
 
 .sample-text {
   text-align: center;
+}
+
+.quote-panel {
+  background-color: #E5E7EB;
+}
+
+.quote-panel .max-width-box {
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote {
+  flex-grow: 0;
+  align-self: start;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.attribution {
+  align-self: end;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1F2937;
+}
+
+.action-panel .max-width-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.action-box {
+  background-color: blue;
+  flex: 0 1 128px;
+  padding: 64px 128px;
+  margin: 64px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-heading {
+  color: #E5E7EB;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action-button {
+  border-color: #E5E7EB;
+  /* TODO: Figure this out */
 }
