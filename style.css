@@ -1,10 +1,31 @@
 body {
+  min-height: 100vh;
   font-family: 'Roboto', sans-serif;
   color: #1F2937;
   font-size: 36px;
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+}
+
+body>* {
+  flex-grow: 1;
+}
+
+.header,
+.footer {
+  flex-grow: 0;
+}
+
+*:has(> .max-width-box) {
+  display: flex;
+  justify-content: center;
+}
+
+.max-width-box {
+  flex: 0 1 1200px;
 }
 
 .header,
@@ -38,12 +59,12 @@ button {
   color: #cbcfd6;
 }
 
-.header {
+.header .max-width-box {
   display: flex;
+  flex-shrink: 1;
   justify-content: space-between;
   align-items: center;
   padding: 8px;
-  flex-shrink: 0;
 }
 
 .header-logo {
@@ -54,8 +75,10 @@ button {
 
 .header-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   gap: 32px;
+  row-gap: 16px;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0 16px;
   padding: 0;
@@ -66,9 +89,10 @@ li {
   padding: 0;
 }
 
-.hero-panel {
+.hero-panel .max-width-box {
   display: flex;
   justify-content: space-between;
+  gap: 16px;
 }
 
 .hero-text {
