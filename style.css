@@ -59,6 +59,11 @@ button {
   color: #cbcfd6;
 }
 
+.secondary-text-dark {
+  font-size: 18px;
+  color: rgb(100, 100, 100);
+}
+
 .header .max-width-box {
   display: flex;
   flex-shrink: 1;
@@ -105,4 +110,38 @@ li {
 .hero-heading {
   font-size: 48px;
   font-weight: 900;
+}
+
+.samples-panel .max-width-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.samples-heading {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.samples-display {
+  display: flex;
+  justify-content: stretch;
+}
+
+.sample-card {
+  flex: 0 1 250px;
+}
+
+.big-flexigap {
+  flex: 2;
+}
+
+.small-flexigap {
+  flex: 1;
+}
+
+.sample-text {
+  text-align: center;
 }
