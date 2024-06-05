@@ -11,7 +11,31 @@ body {
 .hero-panel,
 .footer {
   background-color: #1F2937;
+}
+
+.header,
+.hero-panel,
+.footer,
+button {
   color: #F9FAF8;
+}
+
+button {
+  background-color: blue;
+  font: 18px;
+  padding: 6px;
+  width: 150px;
+}
+
+.secondary-text-light,
+.secondary-text-light a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.secondary-text-light a:hover {
+  color: #cbcfd6;
 }
 
 .header {
@@ -42,13 +66,19 @@ li {
   padding: 0;
 }
 
-.secondary-text-light,
-.secondary-text-light a {
-  font-size: 18px;
-  color: #E5E7EB;
-  text-decoration: none;
+.hero-panel {
+  display: flex;
+  justify-content: space-between;
 }
 
-.secondary-text-light a:hover {
-  color: #cbcfd6;
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2px;
+}
+
+.hero-heading {
+  font-size: 48px;
+  font-weight: 900;
 }
