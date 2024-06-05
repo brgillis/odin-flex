@@ -42,15 +42,13 @@ li {
   padding: 0;
 }
 
-.secondary-text-light {
+.secondary-text-light,
+.secondary-text-light a {
   font-size: 18px;
   color: #E5E7EB;
-}
-
-a {
   text-decoration: none;
 }
 
-a:hover {
+.secondary-text-light a:hover {
   color: #cbcfd6;
 }
