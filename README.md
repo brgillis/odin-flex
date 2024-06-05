@@ -1,2 +1,14 @@
 # Odin-Flex
-This is a learning project aimed at creating a web page from scratch, using all that I've learned about HTML, CSS, and in particular Flex formatting.
+This is a learning project as part of [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page) aimed at creating a web page from scratch, using all that I've learned about HTML, CSS, and in particular Flex formatting.
+
+## Project Structure
+
+This project is structured as a standard web site, with the following notes:
+
+* The "references" folder contains images provided by The Odin Project as reference for how to build this project, and are not used in the final design
+
+## Credits
+
+This project uses images and other resources from the following sources:
+
+* *TBD*
