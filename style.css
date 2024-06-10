@@ -104,7 +104,7 @@ li {
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  padding: 0 16px 16px 0;
+  padding: 0 16px 16px 16px;
 }
 
 .hero-text {
@@ -150,7 +150,12 @@ li {
 
 .sample-card {
   flex: 0 1 250px;
-  padding: 25px
+  padding: 8px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  gap: 8px;
 }
 
 .big-flexigap {
@@ -194,8 +199,12 @@ li {
 }
 
 .quote-panel .max-width-box {
-  padding-left: 120px;
-  padding-right: 120px;
+  display: flex;
+  justify-content: stretch;
+}
+
+.quote-display {
+  flex: 0 1 1050px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -226,7 +235,7 @@ li {
 .action-box {
   background-color: #3882F6;
   flex: 0 1 128px;
-  padding: 64px 128px;
+  padding: 64px 8px;
   margin: 64px 0px;
   display: flex;
   justify-content: space-between;
@@ -242,4 +251,5 @@ li {
 
 .action-button {
   border: 2px solid #E5E7EB;
+  margin: 8px;
 }
