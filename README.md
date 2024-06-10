@@ -11,4 +11,8 @@ This project is structured as a standard web site, with the following notes:
 
 This project uses images and other resources from the following sources:
 
-* *TBD*
+* [Hero image](https://www.pexels.com/photo/european-shorthair-cat-on-a-woven-basket-1543793/)
+* [Sample 1](https://www.pexels.com/photo/close-up-photo-of-cute-sleeping-cat-416160/)
+* [Sample 2](https://www.pexels.com/photo/close-up-photo-of-yellow-and-white-cat-57416/)
+* [Sample 3](https://www.pexels.com/photo/close-up-photo-of-yellow-and-white-cat-57416/)
+* [Sample 4](https://www.pexels.com/photo/close-up-photo-of-yellow-and-white-cat-57416/)
