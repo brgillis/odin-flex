@@ -104,6 +104,7 @@ li {
   display: flex;
   justify-content: space-between;
   gap: 16px;
+  padding: 0 16px 16px 0;
 }
 
 .hero-text {
@@ -120,6 +121,13 @@ li {
 .hero-heading {
   font-size: 48px;
   font-weight: 900;
+}
+
+.hero-image {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  object-position: 65% 100%;
 }
 
 .samples-panel .max-width-box {
