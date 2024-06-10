@@ -47,7 +47,8 @@ button {
 }
 
 button {
-  background-color: blue;
+  background-color: #3882F6;
+  border-radius: 8px;
   font: 18px;
   padding: 6px;
   width: 150px;
@@ -110,6 +111,10 @@ li {
   flex-direction: column;
   align-items: start;
   gap: 2px;
+}
+
+.hero-button {
+  border: none;
 }
 
 .hero-heading {
@@ -186,12 +191,13 @@ li {
 }
 
 .action-box {
-  background-color: blue;
+  background-color: #3882F6;
   flex: 0 1 128px;
   padding: 64px 128px;
   margin: 64px 0px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .action-heading {
@@ -201,6 +207,5 @@ li {
 }
 
 .action-button {
-  border-color: #E5E7EB;
-  /* TODO: Figure this out */
+  border: 2px solid #E5E7EB;
 }
