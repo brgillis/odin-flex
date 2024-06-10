@@ -201,6 +201,7 @@ li {
 .quote-panel .max-width-box {
   display: flex;
   justify-content: stretch;
+  padding: 0 16px;
 }
 
 .quote-display {
