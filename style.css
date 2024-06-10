@@ -150,6 +150,7 @@ li {
 
 .sample-card {
   flex: 0 1 250px;
+  padding: 25px
 }
 
 .big-flexigap {
@@ -158,6 +159,30 @@ li {
 
 .small-flexigap {
   flex: 1;
+}
+
+.sample-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid teal;
+  border-radius: 8px;
+}
+
+.sample-image.i1 {
+  object-position: 10% 50%;
+}
+
+.sample-image.i2 {
+  object-position: 10% 50%;
+}
+
+.sample-image.i3 {
+  object-position: 30% 50%;
+}
+
+.sample-image.i4 {
+  object-position: 50% 50%;
 }
 
 .sample-text {
