@@ -1,4 +1,9 @@
 # Odin-Flex
+
+The published version of this project can be found at: http://brgillis.github.io/odin-flex
+
+## Description
+
 This is a learning project as part of [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page) aimed at creating a web page from scratch, using all that I've learned about HTML, CSS, and in particular Flex formatting.
 
 ## Project Structure
